@@ -1,0 +1,17 @@
+<html>
+  <head></head>
+  <body>
+    <h1>Welcome to Hangman!</h1>
+    <h3>Try to guess the secret word before you've hung the man.</h3>
+    <form><button name='new' value='true'>New Game</button></form>
+    <form>
+      <p>Guess a letter:</p>
+      <input type='text' name='letter' />
+    </form>
+    <p><%= line1 %></p>
+    <p><%= line2 %></p>
+    <p><%= man[0] %><br /><%= man[1] %><br /><%= man[2] %></p>
+    <p><%= display %></p>
+    <p><%= message %></p>
+  </body>
+</html>
